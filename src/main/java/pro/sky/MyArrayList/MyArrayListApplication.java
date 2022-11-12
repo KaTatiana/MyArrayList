@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyArrayListApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyArrayListApplication.class, args);
+		SpringApplication.run(MyArrayListApplication.class,  args);
 	}
 
 }
