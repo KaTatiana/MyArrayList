@@ -24,7 +24,6 @@ public class ArrayListServiceTest {
 
     @BeforeEach
     public void beforeEach(){
-    //String[] stringMas={
         arrayListService.add("Jingle bells, jingle bells");
         arrayListService.add("Jingle all the way");
         arrayListService.add("Oh, what fun it is to ride");
@@ -32,10 +31,6 @@ public class ArrayListServiceTest {
         arrayListService.add("Dashing through the snow");
         arrayListService.add("In a one-horse open sleigh");
         arrayListService.add("O'er the fields we go");
-      //  arrayListService.add("Laughing all the way");
-       // arrayListService.add("Bells on bob-tail ring");
-      //  arrayListService.add("Making our spirits bright");
-    //};
     }
 
     @ParameterizedTest
@@ -119,12 +114,7 @@ public class ArrayListServiceTest {
         assertThat(arrayListService.isEmpty()).isEqualTo(false);
     }
 
-    @Test
-    public void clearPositiveTest(){
-        //assertThat(arrayListService.clear()).isEqualTo(stringMas.length==0);
-    }
 
-    //String[] toArray();
 
     public static Stream<Arguments> paramsItem() {
         return Stream.of(
